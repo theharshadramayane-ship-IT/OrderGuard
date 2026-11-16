@@ -1,0 +1,39 @@
+# ===== Secrets & Environment =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ===== Go =====
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# ===== Rust =====
+target/
+**/*.rs.bk
+
+# ===== Node / React =====
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ===== Misc =====
+*.local
+coverage/
