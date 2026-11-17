@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS reconciliation_logs;
+DROP TABLE IF EXISTS order_events;
+DROP TABLE IF EXISTS orders;
+DROP TABLE IF EXISTS order_intents;
+DROP TABLE IF EXISTS users;
