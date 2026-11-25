@@ -15,7 +15,7 @@ import (
 	"os"
 	"unsafe"
 
-	"orderguard/backend/internal/database"
+	"orderguard/backend/internal/database" 
 )
 
 func main() {
@@ -25,7 +25,6 @@ func main() {
 
 	// 2. Define API Handler
 	http.HandleFunc("/api/test-safety", func(w http.ResponseWriter, r *http.Request) {
-		// Dummy data
 		ref := "req-12345"
 		qty := 500.0 // Safe quantity
 
