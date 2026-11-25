@@ -61,3 +61,4 @@ CREATE TABLE reconciliation_logs (
 CREATE INDEX idx_order_intents_user ON order_intents(user_id);
 CREATE INDEX idx_orders_status ON orders(status);
 CREATE INDEX idx_reconciliation_next_check ON reconciliation_logs(next_check_at) WHERE status = 'PENDING_CHECK';
+-- Indexes designed for background reconciliation polling.
