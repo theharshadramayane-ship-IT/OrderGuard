@@ -47,3 +47,4 @@ pub extern "C" fn evaluate_order_safety(
         Err(_) => -99,
     }
 }
+// Ensure no panics cross the FFI boundary.
