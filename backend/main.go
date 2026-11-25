@@ -15,7 +15,7 @@ import (
 	"os"
 	"unsafe"
 
-	"orderguard/backend/internal/database" 
+	"orderguard/internal/database" 
 )
 
 func main() {
@@ -59,3 +59,5 @@ func main() {
 		log.Fatalf("Server failed to start: %v", err)
 	}
 }
+
+// TODO: Implement actual order insertion into DB using the Rust safety result.
