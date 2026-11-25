@@ -66,3 +66,5 @@ In high-frequency trading, network timeouts create "Uncertain States." If a trad
 
 ---
 *Disclaimer: This is an early-stage prototype and not a certified trading system. Do not use in production without independent security review.*
+
+- [Development Log](DEV_LOG.md)
