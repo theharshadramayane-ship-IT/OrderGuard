@@ -73,3 +73,5 @@ In high-frequency trading, network timeouts create "Uncertain States." If a trad
 See DEV_LOG.md for a detailed engineering log.
 
 - [x] Rust FFI integrated
+
+*Status: Active Development*
