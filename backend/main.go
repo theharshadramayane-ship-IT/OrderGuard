@@ -61,3 +61,5 @@ func main() {
 }
 
 // TODO: Implement actual order insertion into DB using the Rust safety result.
+
+// Note: Database errors are logged via structured logging in future phases.
