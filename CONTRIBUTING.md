@@ -11,3 +11,6 @@ We love your input! We want to make contributing to OrderGuard as easy and trans
 
 ## Any contributions you make will be under the MIT Software License
 When you submit code changes, your submissions are understood to be under the same [MIT License](LICENSE) that covers the project.
+
+## Code of Conduct
+Please ensure all FFI boundaries are safe and no Rust panics cross into Go.
