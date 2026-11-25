@@ -15,3 +15,5 @@ migrate-up:
 
 migrate-down:
 	migrate -path backend/migrations -database "$(DATABASE_URL)" down 1
+clean:
+	go clean -cache
